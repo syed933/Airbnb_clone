@@ -4,6 +4,7 @@ import Banner from 'components/Banner'
 import SmallCard from 'components/SmallCard';
 import MediumCard from 'components/MediumCard';
 import LargeCard from 'components/LargeCard';
+import Footer from 'components/Footer';
 
 
 export default function Home({ exploreData, cardsData }) {
@@ -69,8 +70,8 @@ export default function Home({ exploreData, cardsData }) {
             description='Wishlists curated by Airbnb.'
             buttonText='Get Inspired'  
           />
-
         </main>
+        <Footer />
       </div>
     </>
   );
